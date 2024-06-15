@@ -1,0 +1,181 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.container{
+
+}
+#logo{
+    width:70px;
+    border-right: 2px solid black;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.menu{
+    display: flex;
+}
+
+ul li{
+padding: 20px;
+font-family: "Roboto Condensed", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+}
+button{
+    outline: none;
+    width: 100px;
+    height: 25px;
+    background-color: #06abf8;
+    border: none;
+    border-radius: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #242121;
+    color: white;
+}
+.link{
+    margin-top: 25px;
+}
+.link i{
+    font-size: 20px;
+    margin-left: 15px;
+}
+input{
+    border-radius: 20px;
+    width:200px;
+    border: none;
+    margin-left: 12%;
+    margin-top: 30px;
+    height: 40px;
+    padding-left: 20px;
+}
+.box1{
+    background-color: #121212;
+}
+.search{
+    display: flex;
+    margin-left: 10%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    background-color: #121212;
+    color: white;
+}
+.box2{
+    background-color: #121212;
+}
+.gen_h p{
+    margin-left: 12%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    background-color: #121212;
+}
+.gen_list{
+    height: 40vh;
+    width: 100%;
+    background-color: #121212;
+    display: flex
+}
+.action{
+    width:18%;
+    margin-left: 12%;
+    height: 35vh;
+    border-radius: 5px;
+    background-color:#1c1c1c;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+.action_adven{
+    width:18%;
+    margin-left: 30px;
+    height: 35vh;
+    border-radius: 5px;
+    background-color:#1c1c1c;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+.adven{
+    width:18%;
+    margin-left: 30px;
+    height: 35vh;
+    border-radius: 5px;
+    background-color:#1c1c1c;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+.casual{
+    width:18%;
+    margin-left: 30px;
+    height: 35vh;
+    border-radius: 5px;
+    background-color:#1c1c1c;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+.main{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+}
+.games{
+    width: 57%;
+    margin-left: 12%;
+    color: white;
+}
+.filter{
+    width: 18%;
+    margin-left: 1%;
+    color: aliceblue;
+}
+.filter_box{
+    display: flex;
+    border-radius: 9px;
+}
+.filter_box:hover{
+    box-shadow: 0.4px 0.4px 15px;
+}
+.gbox1{
+    display: flex;  
+    justify-content: space-evenly;
+    align-items: start;
+}
+.game1{
+    width: 20%;
+}
+.game2{
+    width: 20%;
+    margin-left: 10px;
+}
+.game3{
+    width: 20%;
+    margin-left: 15px;
+}
+.game4{
+    width: 20%;
+    margin-right: 20px;
+    margin-left: 10px;
+}
